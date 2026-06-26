@@ -1,0 +1,36 @@
+{
+  "name": "Lead",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "project_type": {
+      "type": "string",
+      "enum": [
+        "Detached ADU",
+        "Attached Addition",
+        "Not sure yet"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "full_name",
+    "email"
+  ]
+}
