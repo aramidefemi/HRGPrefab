@@ -112,9 +112,9 @@ export default function Contact() {
                 className="bg-card rounded-lg p-10 border border-border text-center h-full flex flex-col items-center justify-center"
               >
                 <CheckCircle className="w-16 h-16 text-primary mb-6" />
-                <h3 className="font-heading text-2xl font-bold mb-3">Thanks — we've got it.</h3>
-                <p className="text-foreground/60 max-w-sm">
-                  A member of our team will follow up within one business day.
+                <h3 className="font-heading text-2xl font-bold mb-3">Thank you for reaching out</h3>
+                <p className="text-foreground/60 max-w-md">
+                  We have received your message and will review it shortly. A member of our team will follow up via email within one business day.
                 </p>
               </motion.div>
             ) : (

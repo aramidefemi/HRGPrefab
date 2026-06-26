@@ -53,9 +53,9 @@ export default function GetQuote() {
               className="bg-card rounded-lg p-12 border border-border text-center flex flex-col items-center justify-center"
             >
               <CheckCircle className="w-16 h-16 text-primary mb-6" />
-              <h3 className="font-heading text-2xl font-bold mb-3">Thanks — your request is in.</h3>
-              <p className="text-foreground/60 max-w-sm">
-                A member of our team will follow up within one business day with your free estimate.
+              <h3 className="font-heading text-2xl font-bold mb-3">Thank you for your request</h3>
+              <p className="text-foreground/60 max-w-md">
+                We have received your project details and will review them shortly. A member of our team will follow up with your free quote via email within one business day.
               </p>
             </motion.div>
           ) : (
